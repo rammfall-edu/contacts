@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <form class="col-10 offset-1 mb-3">
+            <div class="mb-3">
+                <label for="name" class="label-form">Name</label>
+                <input type="text" id="name" name="name" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label for="phoneNumber" class="label-form">Phone number</label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" class="form-control">
+            </div>
+            <button class="btn btn-primary w-100">
+                Send
+            </button>
+        </form>
+
+        <ul class="col-10 offset-1">
+        </ul>
+    </div>
+</div>
+
+<form action="" class="edit-form d-none">
+    <div class="mb-3">
+        <label for="editName" class="label-form">Name</label>
+        <input type="text" id="editName" name="name" class="form-control">
+    </div>
+    <div class="mb-3">
+        <label for="editPhoneNumber" class="label-form">Phone number</label>
+        <input type="tel" id="editPhoneNumber" name="phoneNumber" class="form-control">
+    </div>
+    <button class="btn btn-primary w-100">
+        Edit
+    </button>
+</form>
+
+<script src="index.js" type="module"></script>
+</body>
+</html>
